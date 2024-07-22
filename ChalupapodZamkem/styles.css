@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+.gallery-images {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-images img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+h1 {
+    font-size: 3em;
+    color: #1e90ff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.akce {
+    font-size: 1.5em;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 40px; /* Space for the square */
+}
+
+.akce a {
+    text-decoration: none;
+    color: #1e90ff;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.akce a:hover {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.akce a:active {
+    background-color: #104e8b;
+    color: #fff;
+}
+
+.akce::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 3em;
+    color: #1e90ff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.akce1{
+    color: #1e90ff;
+}
+
+.rezervace {
+    color: #fff;
+}
+
+.plus{
+    color: #555;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-underline h1 {
+    display: inline;
+    margin: 0;
+    text-decoration: none;
+}
